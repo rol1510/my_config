@@ -12,3 +12,13 @@ Terminal Color ref:
 
 Don't ask for sude every time:
     https://askubuntu.com/questions/147241/execute-sudo-without-password
+
+make ctrl+alt work:
+    https://unix.stackexchange.com/questions/84707/how-can-i-make-ctrl-alt-act-like-alt-gr-in-ubuntu
+
+fix mousewheel not working while moving
+    use evdev:   https://forums.virtualbox.org/viewtopic.php?p=401248#p401248
+    use imwheel: https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o
+
+
+
