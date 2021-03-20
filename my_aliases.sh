@@ -1,6 +1,7 @@
 EDITOR="code"
 
 alias startup="sudo sh ~/myconfig/startup.sh"
+alias catstartup="cat ~/myconfig/startup.sh"
 
 alias ea="$EDITOR ~/myconfig/my_aliases.sh"
 alias c="$EDITOR ."
