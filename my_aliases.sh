@@ -1,5 +1,7 @@
 EDITOR="code"
 
+alias tow="cd ~/webdev/equation-website"
+
 alias startup="sudo sh ~/myconfig/startup.sh"
 alias catstartup="cat ~/myconfig/startup.sh"
 
