@@ -20,5 +20,14 @@ fix mousewheel not working while moving
     use evdev:   https://forums.virtualbox.org/viewtopic.php?p=401248#p401248
     use imwheel: https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o
 
+latex:
+    install:    https://linuxconfig.org/how-to-install-latex-on-ubuntu-20-04-focal-fossa-linux
+        sudo apt install texlive-latex-base
+        sudo apt install texlive-latex-extra
+    run:
+        pdflatex file.tex   (run 2 times for links / ToC)
+    view:
+        evince file.pdf
 
-
+pdf viewer:
+    evince file.pdf
