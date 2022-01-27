@@ -1,0 +1,55 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.insertLineBefore",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-notebook.cell.insertCodeCellAbove",
+    "when": "notebookCellListFocused && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "workbench.action.tasks.test"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "-workbench.debug.action.toggleRepl",
+    "when": "workbench.panel.repl.view.active"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+oem_3",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+]

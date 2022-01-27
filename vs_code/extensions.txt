@@ -1,0 +1,9 @@
+code spell checker
+emoji
+strict whitespace
+todo+
+auto close tag
+auto rename tag
+class autocomplete for html
+prettier?
+vscode-icons
