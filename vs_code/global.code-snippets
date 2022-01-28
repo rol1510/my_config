@@ -15,7 +15,6 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-
   "react constructor": {
     "prefix": "react constructor, rc",
     "body": [
@@ -27,12 +26,12 @@
       "}"
     ]
   },
-
   "insert empty className": {
     "prefix": "className, cn",
-    "body": [" className=\"$1\""]
+    "body": [
+      " className=\"$1\""
+    ]
   },
-
   "create tsx functional component export": {
     "prefix": "component export,comp",
     "body": [
@@ -46,7 +45,6 @@
       ""
     ]
   },
-
   "display flex centered": {
     "prefix": "display, flex",
     "body": [
@@ -55,5 +53,9 @@
       "align-items: center;",
       ""
     ]
+  },
+  "php tag": {
+    "prefix": "php",
+    "body": "<?php $1?>"
   }
 }
