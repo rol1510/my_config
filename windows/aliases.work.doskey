@@ -1,0 +1,41 @@
+;= See for help: https://superuser.com/questions/1134368/create-permanent-doskey-in-windows-cmd
+
+setMydate=set mydate=%date:~6,4%-%date:~3,2%-%date:~0,2%
+
+ea=code C:\my_config\windows\aliases.work.doskey
+eagit=code C:\Users\RolandStrasser\.gitconfig
+ls=dir /A /B $*
+c=code .
+ex=explorer .
+show=type $*
+ps=powershell
+cloc=powershell D:\Programme\cloc-1.88.exe $*
+math=py -c "print($*)"
+
+;= quickpy
+;= quickpy=D:\HelperScripts\quickPy.bat $*
+;= qpy=D:\HelperScripts\quickPy.bat $*
+
+fileMover="D:\HelperScripts\FileMover\FileMover.py"
+
+ports=mode
+
+q=exit
+
+g=git $*
+gs=git status --short $*
+gl=git logline $*
+gc=git commit $*
+ga=git add $*
+gaa=git add . $*
+gap=git add -p $*
+gaap=git add . -p $*
+gb=git branch $*
+gcm=git checkout main $*
+gco=git checkout $*
+gd=git diff $*
+gstaged=git diff --cached $*
+gconfig=git config --list --show-origin
+
+;= Reset to avoid errors
+;=
