@@ -9,7 +9,7 @@ c=code .
 ex=explorer .
 show=type $*
 ps=powershell
-cloc=powershell D:\Programme\cloc-1.88.exe $*
+;=cloc=powershell D:\Programme\cloc-1.88.exe $*
 math=py -c "print($*)"
 
 ;= quickpy
